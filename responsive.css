@@ -1,6 +1,7 @@
 @media (max-width: 1024px){
 	.home-section{
 	max-width: 100%;
+	min-height: 80vh;
 	}
 
 	.home-section .backphoto{
@@ -20,7 +21,6 @@
 		text-align: center;
 	}
 	.home-section .full-screen{
-		min-height: 80vh;
 		padding: 50px 0;
 	}
 	.home-section .home-image .image-box img{
@@ -89,7 +89,7 @@
 	}
 	.about-section{
 		max-width: 100%;
-		min-height: 80vh;
+		min-height: 100vh;
 	}
 	.about-section .about-info{
 		text-align: center;
