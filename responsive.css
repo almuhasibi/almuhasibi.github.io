@@ -35,6 +35,7 @@
 	}*/
 	.about-section{
 		max-width: 100%;
+		min-height: 100vh;
 	}
 	.about-section .about-info{
 		text-align: center;
@@ -159,5 +160,23 @@
 	.home-section .backphoto{
 		display: none;
 	}
-
+	.home-section .full-screen{
+		padding: 0;
+		margin: 0;
+	}
+	.home-section .home-image .image-box{
+		padding: 0px;
+		top: 50px;
+		margin: 0;
+	}
+	.home-section .home-text h1{
+		font-size: 16px;
+		padding: 0;
+		margin: 0;
+		top: 20px;
+	}
+	.row {
+		display: inline;
+	}
+	
 }
