@@ -2,27 +2,40 @@
 	.home-section{
 	max-width: 100%;
 	}
-	.home-section .full-screen{
-		min-height: 80vh;
-	}
+
 	.home-section .backphoto{
 		display: none;
 	}
-	.effect-1{
-		bottom: 160px;
-	}
+	.home-section .home-text,
 	.home-section .home-image {
+		flex: 0 0 100%;
+		max-width: 100%;
 		margin: 0;
 		padding: 0px;
 	}
-	.home-section .home-text, .home-section .home-image{
-		padding: 0px;
-		text-align: center;
-		position: relative;
+	.home-section .home-text{
+		order: 2;
 	}
+	.home-section .home-text{
+		text-align: center;
+	}
+	.home-section .full-screen{
+		min-height: 80vh;
+		padding: 50px 0;
+	}
+	.home-section .home-image .image-box img{
+		margin-bottom: 40px;
+		max-width: 500px;
+	}
+/*	.home-section .home-image .image-box img{
+		position: absolute;
+		right: 50%;
+		bottom: 40px;
+
+	}*/
 	.about-section{
 		max-width: 100%;
-		min-height: 3vh;
+		min-height: 98vh;
 	}
 	.about-section .about-info{
 		text-align: center;
