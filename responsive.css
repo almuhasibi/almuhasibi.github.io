@@ -2,6 +2,9 @@
 	.home-section{
 	max-width: 100%;
 	}
+	.home-section .full-screen{
+		min-height: 80vh;
+	}
 	.home-section .backphoto{
 		display: none;
 	}
@@ -12,18 +15,34 @@
 		margin: 0;
 		padding: 0px;
 	}
+	.home-section .home-text, .home-section .home-image{
+		padding: 0px;
+		text-align: center;
+		top: 50px;
+	}
+	.home-section .home-image .image-box img{
+		pos
+	}
 	.about-section{
 		max-width: 100%;
+		min-height: 20px;
 	}
 	.about-section .about-info{
 		text-align: center;
 		position: relative;
+		margin: 0px;
 		justify-content: center;
 		top:299px;
 		left: 23%;
 		max-width: 100%;
+		padding: 0px;
+		width: 50px;
+	}
+	.about-section .about-info p{
+		font-size: 30px;
 		padding: 0;
 	}
+
 	.about-section .about-pict{
 		margin: 0;
 		padding: 0;
@@ -31,10 +50,6 @@
 		top: -10px;
 		right: 26%;
 		position: absolute;
-	}
-
-	.about-section .about-pict img{
-		max-width: 100%;
 		width: 999px;
 	}
 	.about-section .minat{
