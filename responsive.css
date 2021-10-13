@@ -1,141 +1,141 @@
-@media(max-width: 991px){
-	.contact-section .contact-item{
-		flex: 0 0 50%;
+@media (max-width: 1024px){
+	.home-section{
+	max-width: 100%;
 	}
-
-}
-@media(max-width: 800px){
-
-	.contact-section .contact-item,
-	.about-section .about-info,
-	.about-skill .about-tabs,
-	.about-section .about-pict,
-	.home-section .home-text, 
-	.portfolio-section .container .row,
-	.home-section .home-image{
-		flex:0 0 100%;
-    	max-width: 100%;
-    	align-content: center;
-}	
-
-	body{
-		max-width: 100%;
-	}
-	.home-section .home-image .image-box img {
-    max-width: 100%;
-}
-	.home-section .home-text{
-		order: 2;
-	}
-	.home-section .home-text{
-		text-align: center;
-	}
-	.home-section .full-screen{
-		padding: 100px 0;
-	}
-	.home-section .home-image .image-box{
-		margin-bottom: 40px;
-		max-width: 450px;
-	}
-	.effect-2{
-		right: 0%;
+	.home-section .backphoto{
+		display: none;
 	}
 	.effect-1{
-		margin-bottom: 100px;
+		bottom: 160px;
 	}
-	.effect-4{
-		left: 10%;
+	.home-section .home-image {
+		margin: 0;
+		padding: 0px;
 	}
-	.about-section ul li{
-		width: 100%;
-	}
-	.about-section .about-pict img{
-		width: 10px;
-	}
-	.about-section .about-pict .social-links{
-		padding-top: 20px;
-		justify-content: center;
-		width: 100%;
-		padding-left: 100px;
-	}
-	.section-title {
-		text-align: center;
+	.about-section{
+		max-width: 100%;
 	}
 	.about-section .about-info{
-		justify-content: center;
-	}
-	.about-section .about-info p{
 		text-align: center;
+		position: relative;
+		justify-content: center;
+		top:299px;
+		left: 23%;
+		max-width: 100%;
+		padding: 0;
 	}
-	.effect-6{
-		left: 4%;
+	.about-section .about-pict{
+		margin: 0;
+		padding: 0;
+		position: relative;
+		top: -10px;
+		right: 26%;
+		position: absolute;
 	}
-	.effect-5{
-		right: 5%;
-		bottom:200px;
-	}
-	.effect-7{
-	left: -90px;
-	bottom: 1999;
-	}
-	.effect-9{
-	bottom: -1000px;
-	right: 10px;
+
+	.about-section .about-pict img{
+		max-width: 100%;
+		width: 999px;
 	}
 	.about-section .minat{
-		width: 100%;
+		max-width: 100%;
+		width: 30%;
+		text-align: center;
+		right: 60%;
+	}
+
+	.skill .container .row{
+		max-width: 100%;
+
+	}
+	.skill .container .row .skill-item{
+		flex: 0 0 100%;
+	}
+	.portfolio-section .container .row{
+		padding: 10px;
+		max-width: 100%;
+		justify-content: center;
+	}
+	.portfolio-section .container .row .item-portfolio{
+		align-content: center;
+	}
+}
+
+@media (max-width: 768px){
+	.home-section .backphoto{
+		display: none;
+	}
+	.about-section{
+		max-width: 100%;
+	}
+	.about-section .about-info{
+		text-align: center;
+		position: relative;
+		justify-content: center;
+		top: 180px;
+		left: 23%;
+		padding: 0;
+		max-width: 100%;
+	}
+		.about-section .minat{
+		max-width: 100%;
+		width: 30%;
+		text-align: center;
+		right: 60%;
+		padding: 0px;
+		margin-left: 40px;
+	}
+	.about-section ul li{
+		margin: 18px;
+	}
+	.about-section .about-pict{
+		margin: 0;
+		padding: 20px;
+		position: relative;
+		right: 26%;
+		top: -10px;
+		position: absolute;
+		/*display: none;*/
+
+	}
+	.custom-shape-divider-top-1633807203 svg{
+		padding-bottom: 2px;
+		margin: 0;
+	}
+	.about-section .about-pict img{
+		width: 1000px;
+	}
+	.about-skill .timeline .timeline-item{
+		margin-bottom: 40px;
 	}
 	.about-skill .timeline .timeline-item:nth-child(odd){
-		padding-left: 15px;
+		padding-left: 70px;
 		text-align: left;
-		padding-right:75px;
+		padding-right:15px;
 
 	}
 	.about-skill .timeline .timeline-item:nth-child(even){
-		padding-right:75px;
+		padding-left: 75px;
 		text-align: left;
+		padding-right:15px;
 	}
 	.about-skill .timeline .timeline-item:nth-child(odd) .icon{
 		right: auto;
-		left: 589px;
+		left: -47px;
 
 	}
 		.about-skill .timeline .timeline-item:nth-child(even) .icon{
-		right: auto;
-		left: 589px;
-
+		left: -50px;
 	}
 	.about-skill .timeline:before{
-		left: 625px;
+		left: 45px;
 	}
-	.skill .container .row{
-		width: 100%;
-	}
-	.skill .container .row .skill-item{
-		width: 100%;
-		height: 100%;
-	}
-	.about-skill .about-tabs .tabs-item{
-		margin: 0 50px 25px;
-	}
-	.skill .container .row .skill-item p{
-		width: 100%;
-	}
-	.portfolio-section .container .row{
-		justify-content: center;
-		width: 100%;
-	}
-	.portfolio-section .container .row .item-portfolio{
-		width: 100%;
-	}
-}	
-@media(max-width: 574px)
-	.home-section .home-image .image-box{
-		max-width: 240px;
-	}
-	.home-section .home-text h1{
-		font-size: 40px;
-	}
+
 }
 
+@media (max-width: 500px){
+	.home-section .backphoto{
+		display: none;
+	}
 
+}

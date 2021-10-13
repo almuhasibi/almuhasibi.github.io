@@ -23,7 +23,7 @@
     }
     *{
         margin: 0;
-        padding: -1px;
+        padding: 0px;
         box-sizing: border-box;
         outline: none;  
     }
@@ -253,7 +253,7 @@
         margin: 0;
         text-transform: capitalize;
     }
-    .backphoto{
+    .home-section .backphoto{
         position: absolute;
         right: 200px;
         z-index: -99;
