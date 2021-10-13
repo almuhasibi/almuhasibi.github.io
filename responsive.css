@@ -35,7 +35,7 @@
 	}*/
 	.about-section{
 		max-width: 100%;
-		min-height: 98vh;
+		min-height: 100vh;
 	}
 	.about-section .about-info{
 		text-align: center;
@@ -89,6 +89,7 @@
 	}
 	.about-section{
 		max-width: 100%;
+		min-height: 80vh;
 	}
 	.about-section .about-info{
 		text-align: center;
