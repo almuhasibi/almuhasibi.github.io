@@ -275,6 +275,7 @@
         background-color: #6F38D4;
         background-repeat: no-repeat;
         overflow: hidden;
+        min-height: 80vh;
     }
     
     .about-section .tab-content{
