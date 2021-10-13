@@ -228,7 +228,7 @@
     }
     .home-section .full-screen{
         padding:0px 0;
-        min-height: 100vh;
+        min-height: 75vh;
     }
     
     .home-section .home-text,
@@ -271,7 +271,6 @@
     .about-section{
         position: relative;
         width: 100%;
-        height: 100vh;
         background-image: url(Assets/image/back1.png);
         background-color: #6F38D4;
         background-repeat: no-repeat;
@@ -317,7 +316,6 @@
     }
     .about-section{
         padding: 80px 20px 80px;
-        min-height: 100vh;
         margin:  0 0 0 0;
     
     }
@@ -490,7 +488,6 @@
         background-color: white;
         margin: 0;
         padding: 0;
-        min-height: 100vh;
         bottom: 100px;
     
     }
@@ -726,7 +723,7 @@
     }
     .portfolio-section {
         background-image: url(Assets/image/back3.png);
-        min-height: 80vh;
+  /*      min-height: 80vh;*/
     /*    padding: 0 0 80px;*/
     
     }
@@ -788,7 +785,6 @@
     
     .contact-section {
         background-color: white;
-        min-height: 80vh;
         padding: 0 0 80px;
     
     }
