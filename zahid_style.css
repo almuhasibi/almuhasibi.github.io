@@ -21,6 +21,10 @@
         font-family: 'Poppins', sans-serif;
       
     }
+    *container{
+        margin: 0;
+        padding: 0;
+    }
     *{
         margin: 0;
         padding: 0px;
@@ -269,6 +273,8 @@
     
     /*section About me start*/
     .about-section{
+        padding: 0;
+        margin: 0;
         position: relative;
         width: 100%;
         background-image: url(Assets/image/back1.png);

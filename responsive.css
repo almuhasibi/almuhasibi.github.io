@@ -107,10 +107,10 @@
 	.effect-3{
 		top: 8px;
 		position: absolute;
-		right: -8px;
+		right: 0px;
 	}
 	.effect-2{
-		right: -20px;
+		right: 0px;
 		bottom: 50px;
 	}
 	.effect-1{
