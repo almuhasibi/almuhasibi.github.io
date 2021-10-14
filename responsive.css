@@ -1,4 +1,7 @@
 @media (max-width: 1024px){
+	.row {
+		display: inline;
+	}
 	.home-section{
 	max-width: 100%;
 	min-height: 80vh;
@@ -19,6 +22,7 @@
 	}
 	.home-section .home-text{
 		text-align: center;
+		padding: 0px;
 	}
 	.home-section .full-screen{
 		padding: 50px 0;
@@ -27,12 +31,7 @@
 		margin-bottom: 40px;
 		max-width: 500px;
 	}
-/*	.home-section .home-image .image-box img{
-		position: absolute;
-		right: 50%;
-		bottom: 40px;
 
-	}*/
 	.about-section{
 		max-width: 100%;
 		min-height: 100vh;
@@ -46,19 +45,14 @@
 		max-width: 100%;
 		padding: 0;
 	}
-	.about-section .about-pict{
+	.about-section .about-pict,
+	.about-section .about-info{
+		flex: 0 0 100%;
+		max-width: 100%;
 		margin: 0;
-		padding: 0;
-		position: relative;
-		top: -0px;
-		right: 26%;
-		position: absolute;
+		padding: 0px;
 	}
 
-	.about-section .about-pict img{
-		max-width: 100%;
-		width: 999px;
-	}
 	.about-section .minat{
 		max-width: 100%;
 		width: 30%;
@@ -81,77 +75,13 @@
 	.portfolio-section .container .row .item-portfolio{
 		align-content: center;
 	}
+
+
 }
 
 @media (max-width: 768px){
 	.home-section .backphoto{
 		display: none;
-	}
-	.about-section{
-		max-width: 100%;
-		min-height: 100vh;
-	}
-	.about-section .about-info{
-		text-align: center;
-		position: relative;
-		justify-content: center;
-		top: 180px;
-		left: 23%;
-		padding: 0;
-		max-width: 100%;
-	}
-		.about-section .minat{
-		max-width: 100%;
-		width: 30%;
-		text-align: center;
-		right: 60%;
-		padding: 0px;
-		margin-left: 40px;
-	}
-	.about-section ul li{
-		margin: 18px;
-	}
-	.about-section .about-pict{
-		margin: 0;
-		padding: 20px;
-		position: relative;
-		right: 26%;
-		top: -10px;
-		position: absolute;
-		/*display: none;*/
-
-	}
-	.custom-shape-divider-top-1633807203 svg{
-		padding-bottom: 2px;
-		margin: 0;
-	}
-	.about-section .about-pict img{
-		width: 1000px;
-	}
-	.about-skill .timeline .timeline-item{
-		margin-bottom: 40px;
-	}
-	.about-skill .timeline .timeline-item:nth-child(odd){
-		padding-left: 70px;
-		text-align: left;
-		padding-right:15px;
-
-	}
-	.about-skill .timeline .timeline-item:nth-child(even){
-		padding-left: 75px;
-		text-align: left;
-		padding-right:15px;
-	}
-	.about-skill .timeline .timeline-item:nth-child(odd) .icon{
-		right: auto;
-		left: -47px;
-
-	}
-		.about-skill .timeline .timeline-item:nth-child(even) .icon{
-		left: -50px;
-	}
-	.about-skill .timeline:before{
-		left: 45px;
 	}
 
 }
@@ -160,7 +90,7 @@
 	.home-section .backphoto{
 		display: none;
 	}
-	.home-section .full-screen{
+	/*.home-section .full-screen{
 		padding: 0;
 		margin: 0;
 	}
@@ -175,8 +105,6 @@
 		margin: 0;
 		top: 20px;
 	}
-	.row {
-		display: inline;
-	}
+
 	
 }
