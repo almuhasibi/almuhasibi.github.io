@@ -1,5 +1,4 @@
 
-
 @media (max-width: 1024px){
 	.row {
 		display: inline;
@@ -266,7 +265,7 @@
 		display: none;
 	}
 	.home-section .home-text h1{
-		margin-top: 0px;
+		margin-top: 40px;
 	}
 	.home-section .home-image .image-box img{
 		padding-bottom: 40px;
@@ -324,6 +323,9 @@
 		max-width: 100%;
 		
 	}
+	.about-skill .timeline .timeline-item-inner p{
+		font-weight: lighter;
+	}
 	.about-skill .timeline .timeline-item:nth-child(odd){
 		padding-left: 10px;
 		text-align: center;
@@ -340,6 +342,12 @@
 	}
 	.about-section .about-info p{
 		font-size: 10px;
+	}
+	.skill .container .row .skill-item p{
+		font-size: 12px;
+	}
+	.skill .container .row .skill-item h3{
+		margin-top: 10px;
 	}
 	.portfolio-section .container .row{
 		padding: 0;
