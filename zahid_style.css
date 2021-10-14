@@ -617,7 +617,7 @@
         margin: 0 0 5px;
     }
     .about-skill .timeline .timeline-item-inner p{
-        font-weight: lighter;
+        font-weight: 400;
         text-transform: capitalize;
         color: #7B48DA;
         line-height: 25px;
@@ -662,7 +662,7 @@
         margin: 10px 0 5px;
     }
     .skill .container .row .skill-item p{
-        font-weight: lighter;
+        font-weight: 400;
         text-transform: capitalize;
         color: #7B48DA;
         line-height: 25px;

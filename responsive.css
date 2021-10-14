@@ -324,7 +324,7 @@
 		
 	}
 	.about-skill .timeline .timeline-item-inner p{
-		font-weight: lighter;
+		font-weight: 600px;
 	}
 	.about-skill .timeline .timeline-item:nth-child(odd){
 		padding-left: 10px;
