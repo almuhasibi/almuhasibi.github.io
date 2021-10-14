@@ -109,9 +109,17 @@
 	.contact-section .section-title{
 		margin-bottom: 120px;
 	}
+	.home-section .backphoto-1{
+		display: none;
+
+	}
 @media (max-width: 999px){
 	.portfolio-section .container .row .item-portfolio{
 		max-width: 40%;
+	}
+		.about-section .backphoto-1{
+		display: none;
+
 	}
 }
 }
@@ -129,6 +137,10 @@
 	.portfolio-section .container .row .item-portfolio{
 		max-width: 40%;
 		margin: 20px;
+	}
+	.about-section .backphoto-1{
+		display: none;
+
 	}
 
 }
@@ -177,7 +189,59 @@
 	}
 	.about-section{
 		max-width: 100%;
-		min-height: 50vh;
+		min-height: 90vh;
+	}
+	.about-section .about-pict .image-box{
+		display: none;
+	}
+	.about-section .about-pict .social-links{
+		margin-top: 60px;
+	}
+	.about-section .minat{
+		padding: 0;
+	}
+	.effect-7{
+		top: 1280px;
+		z-index: -1;
+	}
+	.skill .container .row{
+		justify-content: center;
+	}
+	.skill .container .row .skill-item{
+		flex: 0 0 100%;
+	}
+	.skill .container .row .skill-item{
+		max-width: 100%;
+		margin-left: 0px;
+	}
+	.about-skill .timeline .timeline-item:nth-child(odd){
+		padding-left: 60px;
+		text-align: left;
+		padding-right: 25px;
+
+	}
+	.about-skill .timeline .timeline-item:nth-child(even){
+		padding-right: 25px;
+		text-align: left;
+		padding-left: 55px;
+	}
+
+	.about-skill .timeline:before{
+		left: 35px;
+	}
+
+	.about-skill .timeline .timeline-item:nth-child(odd) .icon {
+		left: -45px;
+		right: auto;
+	}
+	.about-skill .timeline .timeline-item-inner{
+		margin-bottom: 50px;
+	}
+	.about-skill .timeline .timeline-item-inner:last-child{
+		margin-bottom: 0px;
+	}
+	.about-skill .timeline .timeline-item:nth-child(even) .icon {
+		left: -44px;
 	}
 	.portfolio-section .container .row{
 		padding: 0;
@@ -187,9 +251,13 @@
 	.portfolio-section .container .row .item-portfolio{
 		width: 40%;
 	}
+		.about-section .backphoto-1{
+		display: none;
+
+	}
 }
 
-@media (max-width: 417px){
+@media (max-width: 415px){
 
 	.home-section .backphoto{
 		display: none;
@@ -202,11 +270,70 @@
 		max-width: 100%;
 
 	}
+	.effect-6{
+		left: -90px;
+	}
+	.section-title{
+		z-index: 99999;
+		padding-left: 0;
+	}
+	.about-section .about-info .section-title h2{
+		padding-left: 1px;
+		
+	
+	}
+	.effect-2{
+		width: 70px;
+	}
+	.effect-3{
+		top: 0px;
+	}
+	.about-section .about-info .section-title{
+		font-size: 11px;
+	}
+	.about-section .minat{
+		padding: 10px;
+		left: -45px;
+	}
+	.about-section ul{
+		width: 20px;
+	}
+	.about-section ul li{
+		padding-bottom: 9px;
+		padding-top: 9px;
+		letter-spacing: 5px;
+		height: -20px;
+		font-size: 12px;
+		margin: 5px;
+	}
+	.skill .container .row .skill-item{
+		max-width: 100%;
+		
+	}
+	.about-skill .timeline .timeline-item:nth-child(odd){
+		padding-left: 10px;
+		text-align: center;
+		padding-right: 10px;
+
+	}
+	.about-skill .timeline .timeline-item:nth-child(even){
+		padding-right: 10px;
+		text-align: center;
+		padding-left: 15px;
+	}
+	.about-skill .timeline:before{
+		display: none;
+	}
+	.about-section .about-info p{
+		font-size: 10px;
+	}
 	.portfolio-section .container .row{
 		padding: 0;
 		justify-content: center;
 		margin: 0;
-
+	}
+	.about-skill .timeline .timeline-item .icon {
+		display: none;
 	}
 	.portfolio-section .container .row .item-portfolio{
 		width: 45%;
@@ -224,6 +351,10 @@
 	}
 	.portfolio-section .container .row .item-portfolio .image-portfolio img{
 		padding: 0	;
+	}
+		.about-section .backphoto-1{
+		display: none;
+
 	}
 /*	.home-section .full-screen{
 		padding: 0;
@@ -291,5 +422,9 @@
 	}
 	.contact-section .section-title{
 		margin-bottom: 120px;
+	}
+		.about-section .backphoto-1{
+		display: none;
+
 	}
 }
