@@ -120,11 +120,15 @@
 }
 
 @media (max-width: 414px){
+
 	.home-section .backphoto{
 		display: none;
 	}
 	.header .logo a{
 		display: none;
+	}
+	.home-section .home-image .image-box img{
+		padding-bottom: 10px;
 	}
 	/*.home-section .full-screen{
 		padding: 0;
