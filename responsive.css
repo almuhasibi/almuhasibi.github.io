@@ -145,6 +145,14 @@
 		top: 50px;
 		position: absolute;
 	}
+	.portfolio-section .container .row{
+		padding: 0;
+		justify-content: center;
+
+	}
+	.portfolio-section .container .row .item-portfolio{
+		width: 40%;
+	}
 }
 
 @media (max-width: 414px){
