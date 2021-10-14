@@ -236,6 +236,7 @@
 	}
 	.portfolio-section{
 		width: 100%;
+		min-height: 100vh;
 	}
 	.portfolio-section .container .row{
 		padding: 0;
@@ -252,7 +253,7 @@
 		padding: 10px;
 	}
 	.portfolio-section .container .row .item-portfolio .text-portfolio h3{
-		font-size: 1px;
+		font-size: 12px;
 	}
 	.portfolio-section .container .row .item-portfolio .text-portfolio p{
 		font-size: 10px;
@@ -263,7 +264,6 @@
 	.contact-section .contact-item{
 		align-items: center;
 		max-width: 100%;
-		
 		margin-bottom: 30px;
 	}
 	.contact-section .section-title{
