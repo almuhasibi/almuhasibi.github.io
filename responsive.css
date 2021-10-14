@@ -1,3 +1,5 @@
+
+
 @media (max-width: 1024px){
 	.row {
 		display: inline;
@@ -107,7 +109,11 @@
 	.contact-section .section-title{
 		margin-bottom: 120px;
 	}
-
+@media (max-width: 999px){
+	.portfolio-section .container .row .item-portfolio{
+		max-width: 40%;
+	}
+}
 }
 @media (max-width: 930px){
 	.skill .container {
