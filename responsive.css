@@ -166,7 +166,7 @@
 	}
 }
 
-@media (max-width: 414px){
+@media (max-width: 500px){
 
 	.home-section .backphoto{
 		display: none;
@@ -194,7 +194,7 @@
 		padding: 10px;
 	}
 	.portfolio-section .container .row .item-portfolio .text-portfolio h3{
-		font-size: 12px;
+		font-size: 1px;
 	}
 	.portfolio-section .container .row .item-portfolio .text-portfolio p{
 		font-size: 10px;
