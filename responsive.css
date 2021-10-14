@@ -115,7 +115,7 @@
 	}
 }
 }
-@media (max-width: 930px){
+@media (max-width: 999px){
 	.skill .container {
 		flex: 0 0 100%;
 		max-width: 100%;
@@ -128,6 +128,7 @@
 	}
 	.portfolio-section .container .row .item-portfolio{
 		max-width: 40%;
+		margin: 20px;
 	}
 
 }
