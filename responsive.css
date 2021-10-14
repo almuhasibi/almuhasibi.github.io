@@ -109,6 +109,22 @@
 	}
 
 }
+@media (max-width: 930px){
+	.skill .container {
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin: 0;
+		padding: 0px;
+	}
+	.portfolio-section .container .row{
+		padding: 0;
+		justify-content: center;
+	}
+	.portfolio-section .container .row .item-portfolio{
+		max-width: 40%;
+	}
+
+}
 
 @media (max-width: 768px){
 	.home-section .backphoto{
@@ -154,7 +170,7 @@
 	}
 	.about-section{
 		max-width: 100%;
-		min-height: 40vh;
+		min-height: 50vh;
 	}
 	.portfolio-section .container .row{
 		padding: 0;
@@ -166,7 +182,7 @@
 	}
 }
 
-@media (max-width: 414px){
+@media (max-width: 417px){
 
 	.home-section .backphoto{
 		display: none;
@@ -186,7 +202,7 @@
 
 	}
 	.portfolio-section .container .row .item-portfolio{
-		width: 39%;
+		width: 45%;
 		margin: 10px;
 		padding: 0;
 	}
@@ -221,7 +237,7 @@
 	
 }
 
-@media (max-width: 313px){
+@media (max-width: 360px){
 
 	.home-section .backphoto{
 		display: none;
@@ -236,7 +252,7 @@
 	}
 	.portfolio-section{
 		width: 100%;
-		min-height: 100vh;
+		min-height: 80vh;
 	}
 	.portfolio-section .container .row{
 		padding: 0;
@@ -253,7 +269,7 @@
 		padding: 10px;
 	}
 	.portfolio-section .container .row .item-portfolio .text-portfolio h3{
-		font-size: 12px;
+		font-size: 14px;
 	}
 	.portfolio-section .container .row .item-portfolio .text-portfolio p{
 		font-size: 10px;
