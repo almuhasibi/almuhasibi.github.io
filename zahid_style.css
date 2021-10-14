@@ -456,7 +456,7 @@
         width: 100%;
         font-weight: 900px;
         position: absolute;
-        left: -1px;
+        right: -72px;
     }
     
     .about-section ul{
