@@ -258,7 +258,9 @@
 }
 
 @media (max-width: 415px){
-
+	.home-section{
+		min-height: 60vh;
+	}
 	.home-section .backphoto{
 		display: none;
 	}
